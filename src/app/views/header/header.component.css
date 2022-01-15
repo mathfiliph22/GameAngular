@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+* {
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+
+}
+
+.menu1{
+    display: none;
+}
+
+
+header{
+    background-color: white;
+   
+}
+/* cabeça */
+.container_grid{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+/* tamanho grid */
+.posicionamento_header{
+    height: 150px;
+    align-items: center;
+  
+    display: flex;
+    justify-content: space-between;
+    
+}
+/* posiçao do cabeçalho */
+
+.barras{
+    display: none;
+}
+
+
+.conta-carrinho a{
+    text-decoration: none;
+    font-family: 'Russo One', sans-serif;
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    
+}
+/* icones de conta e carrinhoi */
+
+.lupa-usuario-carrinho{
+    display: none;
+    
+}
+
+
+

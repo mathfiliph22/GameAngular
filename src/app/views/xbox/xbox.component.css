@@ -1,0 +1,579 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
+* {
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+
+}
+
+header{
+    background-color: white;
+   
+}
+/* cabeça */
+
+.container_grid{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+/* tamanho grid */
+.posicionamento_header{
+    height: 100%;
+    align-items: center;
+  
+    display: flex;
+    justify-content: space-between;
+    
+}
+/* posiçao do cabeçalho */
+
+.conta-carrinho a{
+    text-decoration: none;
+    font-family: 'Russo One', sans-serif;
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    
+}
+
+/* icones de conta e carrinhoi */
+
+.menu a {
+    font-family: "russo one";
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+      
+}  
+
+/* links menu */
+.menu { 
+    height: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #163b51; 
+    height: 70px;
+}
+
+.banner{
+    background-image: url(/GameManiaAngular/src/assets/img/xbox\ one\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    
+   
+               
+}
+.banner img{
+    max-width: 100%;
+}
+
+.Consoles {
+    background-color: #163b51;
+    height: 70px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+
+.Consoles a{
+    font-family: "russo one";
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;    
+
+}
+
+.consol1 {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 450px;
+
+   
+
+}
+
+.consol1 img{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    height: 200px;
+
+
+}
+
+.precos p {
+    color: black;
+    font-family: "russo one", "sans serife";  
+    text-decoration: none;   
+} 
+.precos{
+    display: flex;
+    justify-content:space-between;
+   
+}
+
+
+.comprar1 a{
+    color:white;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: #163b51;
+    font-family: "russo one";
+    text-transform: uppercase;
+
+
+
+}
+
+
+.comprar1{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+   
+    
+
+}
+
+.Jogos{
+    background-color: #163b51;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+
+}
+
+.Jogos a {
+    font-family: "russo one";
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;   
+}
+
+.Jogos2 {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 450px;
+
+
+}
+
+.Jogos2 img{
+    width: 250px;
+    height: 250px;
+}
+
+.precos2 p {
+    color: black;
+    font-family: "russo one", "sans serife";  
+    text-decoration: none;   
+} 
+
+.precos2 {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.comprar2 a{
+    color:white;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: #163b51;
+    font-family: "russo one";
+    text-transform: uppercase;
+
+
+
+}
+
+
+.comprar2{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}  
+
+
+.sobre-GM{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.sobre-GM{
+    font-family: "russo one";
+    font-size: 20px;
+} 
+.sobre-GM h1 {
+    color: #163b51;
+}
+.sobre-GM h2 {
+    color: #163b51;
+}
+.sobre-GM h3 {
+    color: #163b51;
+}
+
+.sobre-GM h4 {
+    color: #163b51;
+}
+
+.cnpj{
+    font-family: "russo one";
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    
+
+
+    
+}  
+
+@media only screen and (max-width: 1920px) {
+    .container_grid {
+        width: 70%;      
+    }
+
+    .produtos11{
+        display: none;
+    }
+
+    .menu1{
+        display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 1200px) {
+      .container_grid {
+          width: 90%;      
+      }
+
+      .produtos11{
+        display: none;
+    }
+
+      .menu a{
+          font-size: 22px;
+      }
+
+      .Consoles a {
+        font-size: 22px;
+      }
+
+      .Jogos a{
+        font-size: 22px;
+      }
+
+
+
+      .sobre-GM{
+          width: 95%;
+          display: flex;
+          justify-content: space-around;
+          
+      }
+      H1{
+          font-size: 19px ;
+          
+      }
+
+      H2{
+        font-size: 19px ;
+      }
+
+      H3{
+        font-size: 19px ;
+    }
+
+    H4{
+        font-size: 19px ;
+    }
+    p{
+        font-size: 17px;
+    }
+
+    .menu1{
+        display: none;
+    }
+      
+}
+
+@media only screen and (max-width: 988px) {
+    .menu { 
+        height: 100%;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        background-color: #163b51; 
+        height: 70px;
+        width: 1000px;
+    }
+
+    .produtos11{
+        display: none;
+    }
+
+    .banner{
+        width: 1000px;
+    }
+
+    .Consoles{
+        width: 1000px;
+    }
+
+    .Jogos{
+        width: 1000px;
+    }
+
+    .sobre-GM{
+        width: 95%;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    H1{
+        font-size: 19px ;
+        
+    }
+
+    H2{
+      font-size: 19px ;
+    }
+
+    H3{
+      font-size: 19px ;
+  }
+
+  H4{
+      font-size: 19px ;
+  }
+  p{
+      font-size: 17px;
+  }
+
+  .menu1{
+    display: none;
+}
+      
+
+}
+
+
+@media only screen and (max-width: 768px){
+
+    .menu{
+        display: none;
+        flex-direction: column;
+        width: 200px;
+        height: 200px;
+        position:fixed;
+       
+    }
+
+
+    .menu1 p{
+        font-size: 40px;
+        font-family: "russo one";
+        color: white;
+
+    }
+
+    .menu1 {
+        height: 100%;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        background-color: #163b51; 
+        height: 70px;
+        width: 1000px;
+    }
+
+    .menu1 img{
+        height: 60px;
+    }
+
+ 
+
+
+
+
+
+
+  
+
+     .container_grid{
+        width: 978px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    
+     }
+
+     .produtos1 {
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        height: 260px;
+        margin-bottom: 50px;
+       
+    
+    
+    }
+
+    .produtos11{
+        display: none;
+    }
+    
+    .produtos1 img{
+        display: flex;
+        justify-content: space-between;
+        width: 250px;
+        height: 200px;
+    
+    }
+    
+    .precos p {
+        color: black;
+        font-family: "russo one", "sans serife";  
+        text-decoration: none;
+
+    } 
+    .precos{
+        display: flex;
+        justify-content:space-between;
+        width: 1000px;
+        text-transform: uppercase;
+       
+    }
+    
+    .comprar1 a{
+        color:white;
+        text-decoration: none;
+        font-size: 25px;
+        background-color: #163b51;
+        font-family: "russo one";
+        text-transform: uppercase;
+    
+    
+    
+    }
+    
+    
+    .comprar1{
+        display: flex;
+        justify-content: space-between;
+        padding: 50px;
+        width: 1000px;
+       
+                  
+    
+    }
+
+
+    .produtos2 {
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        height: 260px;
+        margin-bottom: 50px;
+       
+    }
+    
+    .produtos2 img{
+        display: flex;
+        justify-content: space-between;
+        width: 250px;
+        height: 200px;
+    
+    } 
+    .precos2 p {
+        color: black;
+        font-family: "russo one", "sans serife";  
+        text-decoration: none;   
+    } 
+    
+    .precos2 {
+        display: flex;
+        justify-content: space-between;
+        text-transform: uppercase;
+        width: 1000px;
+       
+    }
+    
+    
+    .comprar2 a{
+        color:white;
+        text-decoration: none;
+        font-size: 25px;
+        background-color: #163b51;
+        font-family: "russo one";
+        text-transform: uppercase;
+    
+    
+    
+    }
+    
+    
+    .comprar2{
+        display: flex;
+        justify-content: space-between;
+        padding: 50px;
+        width: 1000px;
+       
+        
+    
+    }
+
+
+    .sobre-GM{
+        width: 1000px;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    H1{
+        font-size: 20px ;
+        
+    }
+
+    H2{
+      font-size: 20px ;
+    }
+
+    H3{
+      font-size: 20px ;
+  }
+
+  H4{
+      font-size: 20px ;
+  }
+  p{
+      font-size: 19px;
+  }
+
+  .linha{
+      width:1000px;
+  }
+      
+  .cnpj{
+      width: 1000px;
+  }
+
+
+
+}

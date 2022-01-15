@@ -1,0 +1,39 @@
+.sobre-GM{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.sobre-GM{
+    font-family: "russo one";
+    font-size: 20px;
+} 
+.sobre-GM h1 {
+    color: #163b51;
+    font-family: "russo one";
+}
+.sobre-GM h2 {
+    color: #163b51;
+    font-family: "russo one";
+}
+.sobre-GM h3 {
+    color: #163b51;
+    font-family: "russo one";
+}
+
+.sobre-GM h4 {
+    color: #163b51;
+    font-family: "russo one";
+}
+
+.cnpj{
+    font-family: "russo one";
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    
+
+
+    
+}

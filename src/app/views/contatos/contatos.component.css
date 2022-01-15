@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+.informações{
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.informações a {
+    font-family: "russo one";
+    font-size: 25px;
+}

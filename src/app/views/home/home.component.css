@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
+
+.menu a {
+    font-family: "russo one";
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+      
+}  
+
+/* links menu */
+.menu { 
+    height: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #163b51; 
+    height: 70px;
+    
+}
+
+.menu1{
+    display: none;
+}
+
+
+
+
+/* posicionamento */
+
+.banner{
+    background-image: url(/GameManiaAngular/src/assets/img/BannerSiteWB_FIFA22_4320x1080px_v1\ \(5\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    
+
+}
+
+.banner img{
+    max-width: 100%;
+}
+
+
+.novidades {
+    background-color: #163b51;
+    height: 70px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+
+.novidades a{
+    font-family: "russo one";
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;   
+
+}
+
+
+.produtos1 {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 450px;
+    margin-bottom: -80px;
+
+
+}
+
+.produtos1 img{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    height: 200px;
+
+}
+
+.produtos11{
+    display: none;
+}
+
+.precos p {
+    color: black;
+    font-family: "russo one", "sans serife";
+    text-decoration: none;
+} 
+.precos{
+    display: flex;
+    justify-content:space-between;
+   
+}
+
+.comprar1 a{
+    color:white;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: #163b51;
+    font-family: "russo one";
+    text-transform: uppercase;
+
+
+
+}
+
+
+.comprar1{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+   
+    
+
+}
+.destaque{
+    background-color: #163b51;
+    height: 70px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
+
+.destaque a {
+    font-family: "russo one";
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase; 
+}
+
+
+.destaques{
+    background-image: url(/GameManiaAngular/src/assets/img/switch_image_homepage_2\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+.destaques img {
+
+    max-width: 100%;
+}
+
+
+
+.promoções {
+    background-color: #163b51;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+
+}
+
+.promoções a {
+    font-family: "russo one";
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.produtos2 {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 450px;
+    margin-bottom: -80px;
+
+
+}
+
+.produtos2 img{
+    width: 250px;
+    height: 200px;
+}
+
+.precos2 p {
+    color: black;
+    font-family: "russo one", "sans serife"; 
+    text-decoration: none;  
+} 
+
+.precos2 {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+
+.comprar2 a{
+    color:white;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: #163b51;
+    font-family: "russo one";
+    text-transform: uppercase;
+
+
+
+}
+
+
+.comprar2{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+   
+    
+
+}
+
+
+
+.menu1{
+    display: none;
+}
+
