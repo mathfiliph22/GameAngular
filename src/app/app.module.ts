@@ -11,17 +11,18 @@ import { FormsModule } from '@angular/forms';
 import { FooterComponent } from './views/footer/footer.component';
 import { SmartphoneComponent } from './views/smartphone/smartphone.component';
 import { XboxComponent } from './views/xbox/xbox.component';
+import {HttpClientModule} from '@angular/common/http';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     ContatosComponent,
-    HomeComponent,
     HeaderComponent,
     FooterComponent,
     SmartphoneComponent,
     XboxComponent,
+    HomeComponent,
    
     
   ],
@@ -30,7 +31,8 @@ import { XboxComponent } from './views/xbox/xbox.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatButtonModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
 
    
 
