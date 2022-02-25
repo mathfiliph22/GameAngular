@@ -12,6 +12,11 @@ import { FooterComponent } from './views/footer/footer.component';
 import { SmartphoneComponent } from './views/smartphone/smartphone.component';
 import { XboxComponent } from './views/xbox/xbox.component';
 import {HttpClientModule} from '@angular/common/http';
+import { LoginComponent } from './views/login/login.component';
+import { NotFOundComponent } from './views/not-found/not-found.component';
+
+
+
 
 
 @NgModule({
@@ -23,6 +28,12 @@ import {HttpClientModule} from '@angular/common/http';
     SmartphoneComponent,
     XboxComponent,
     HomeComponent,
+    LoginComponent,
+    NotFOundComponent
+   
+ 
+   
+  
    
     
   ],

@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Noticia } from 'src/app/Models/noticia';
-import { User } from 'src/app/Models/user';
-import { NoticiaService } from 'src/app/Service/noticia.service';
+import { NoticiaService } from 'src/app/Services/noticia.service';
 
 @Component({
   selector: 'app-home',
@@ -33,7 +32,7 @@ export class HomeComponent implements OnInit {
 
   salvarNoticia() {
 
-    this.noticiaService.postNoticia(this.noticiaForm).subscribe( (res) => {
+    this.noticiaService.postNoticia(this.noticiaForm).subscribe( () => {
       this.carregarNoticias();
 
 
@@ -41,10 +40,4 @@ export class HomeComponent implements OnInit {
 
   }
 
-  userModel = new User("","")
-
-  onSubmit () {
-    console.log(this.userModel)
-  }
-
-}
+} 
