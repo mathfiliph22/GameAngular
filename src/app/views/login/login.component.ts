@@ -20,6 +20,22 @@ export class LoginComponent implements OnInit {
   mensagem = "";
 
   onSubmit() {
+  console.log("modelo", this.loginModel)
+
+  const listaPalavras: string[] = ["select ", "from ", "drop ", "or ", "having ", "group ", "by ", "insert ", "exec ", "\"", "/'", "--", "# ", "* ", "; " ]
+
+  listaPalavras.forEach(palavra => {
+     if(this.loginModel.email?.toLowerCase().includes(palavra) ) {
+      this.mensagem = "dados inválidos" + palavra
+
+      return;
+
+    }
+
+    
+  });
+
+
     this.loginService.login(this.loginModel).subscribe( (response)=> {
       this.mensagem = "login com sucesso";
       this.router.navigateByUrl("/");
